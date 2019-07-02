@@ -8,7 +8,7 @@ const axios = require('axios');
 // Create a server with a host and port  
 /*
 const server = Hapi.server({
-  host: '192.168.0.10',
+  host: '10.101.26.102',
   port: 8051,
   routes: {
     "cors" : true
@@ -16,7 +16,7 @@ const server = Hapi.server({
 });
 // */
 const server = Hapi.server({
-  host: '10.101.26.102',
+  host: '192.168.2.130',
   port: 8051,
   routes: {
     "cors" : true,
